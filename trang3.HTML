@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Giới Thiệu</title>
+    <style>
+        /* Reset mặc định */
+        body {
+            
+            background-color: white;
+            color: #333;
+        }
+
+        /* Container chính */
+        .container {
+
+            width: 1600px;
+            margin: auto 0;
+        }
+
+        header {
+            background-color: white;
+            color: black;
+            padding: 10px 0;
+            box-shadow: 0 0 10px gray;
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            justify-content: space-between;
+            padding: 0 20px;
+            position: fixed;
+            width: 1600px;
+            top: 0px;
+            z-index: 9999;
+        }
+
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul ul {
+            position: absolute;
+            display: none;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px gray;
+        }
+
+        nav ul ul a {
+            display: block;
+            line-height: 30px;
+            color: orangered;
+            text-decoration: none;
+            /* font-variant: small-caps; */
+            font-size: larger;
+            padding: 0 10px;
+            text-decoration: none;
+        }
+
+        nav>ul>li:hover>ul {
+            display: block;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(200, 200, 200);
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+
+        .dangnhap {
+            display: flex;
+        }
+
+        .dangnhap p {
+            margin-left: 60px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        nav p {
+            margin: 0 15px;
+        }
+
+        nav p {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        nav p:hover {
+            background-color: rgb(200, 200, 200);
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+
+    
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero-section {
+    background-color: #002966;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+   
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+   
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background-color: #0033aa;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.details-section {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.details-section h2 {
+    margin-bottom: 20px;
+}
+
+.details-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.details-section button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.details-section button:hover {
+    background-color: #005ba1;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="dangnhap">
+                    <a href="index.HTML"><img src="img/Lo-G0.jpg" style="width: 80px; height: 40px;"></a>
+                    <a href="lab9.HTML">
+                        <p>Dang Nhap</p>
+                    </a><a href=""><img src="img\OIP.jpg" style="width: 50px;" height="50px" alt=""></a>
+                    <a href="Lab9.1.HTML">
+                        <p>Dang Ky</p><a href=""><img src="img\pngtree-exit-icon-vectors-png-image_1737870.jpg"
+                                style="width: 50px;" height="50px" alt=""></a>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="">Office</a>
+                        <ul>
+                            <li><a href="" style="text-decoration: none;">365 Office</a></li>
+                            <li><a href="" style="text-decoration: none;">Student Office</a></li>
+                            <li><a href="" style="text-decoration: none;">Family Office</a></li>
+                        </ul></li>
+                    <li><a href="">Windows</a>
+                        <ul>
+                            <li><a href="" style="text-decoration: none;">Windows 7</a></li>
+                            <li><a href="" style="text-decoration: none;">Windows 8</a></li>
+                            <li><a href="" style="text-decoration: none;">Windows 10</a></li>
+                            <li><a href="" style="text-decoration: none;">Windows 11</a></li>
+                            <li><a href="" style="text-decoration: none;">Windows</a></li>
+                        </ul></li>
+                    <li><a href="">Surface</a>
+                        <ul>
+                            <li><a href="" style="text-decoration: none;">Sunface 100</a></li>
+                            <li><a href="" style="text-decoration: none;">Sunface 200</a></li>
+                        </ul></li>
+                    <li><a href="">Xbox</a></li>
+                    <li><a href="">Hỗ trợ</a>
+                        <ul>
+                            <li><a href="" style="text-decoration: none;">Lien He</a></li>
+                            <li><a href="" style="text-decoration: none;">Gioi Thieu</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Microsoft Edge là trình duyệt được hỗ trợ bởi AI, thông minh hơn thông minh hơn</h1>
+                    <p>Các thông tin mới trong Microsoft Edge</p>
+                    <button>Xem các tính năng mới</button>
+                </div>
+                <div class="hero-image">
+                    <img src="img\Edg.png" alt="Microsoft Edge" width="600px" height="550px">
+                </div>
+            </div>
+        </section>
+    
+        <!-- Phần Chi Tiết -->
+        <section class="details-section">
+            <div class="container">
+                <h2>Microsoft Edge có giao diện mới</h2>
+                <p>Trải nghiệm web với giao diện mới được thiết kế giúp bạn điều hướng dễ dàng, hỗ trợ các chức năng AI và giảm thiểu phiền nhiễu khi bạn duyệt web trong khi vẫn tập trung vào hiệu suất và bảo mật.</p>
+                <button>Tìm hiểu thêm</button>
+                <div class="video-container">
+                    <video controls loop src="video\7c5514b0af9d45649003d1279604143d.mp4" width="500px" height="400px">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <div class="chat">
+            <script src="https://uhchat.net/code.php?f=d3e584"></script>
+        </div>
+        <footer>
+            <div class="container">
+                <ul>
+                    <li><a href="#">Điều khoản dịch vụ</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+                <p>&copy; 2024 Công ty của bạn. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </footer>
+</body>
+
+</html>

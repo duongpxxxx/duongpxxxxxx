@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft 365 Personal</title>
+    <style>
+ 
+
+
+body {
+    background-color: white;
+    color: #333;
+}
+
+a {
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+.container {
+    width: 1600px;
+    margin: auto 0;
+}
+.hero {
+    background-color: #f7d7c4;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product-details {
+    background-color: white;
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+
+.product-details .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info {
+    max-width: 60%;
+}
+
+.product-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-info ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.product-info ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* .product-info ul li::before {
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+} */
+
+.product-price {
+    max-width: 35%;
+    text-align: center;
+    background-color: #eef2f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-price h3 {
+    font-size: 2em;
+    color: #0078d7;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #0078d7;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.buy-button:hover {
+    background-color: #005ba1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+header {
+            background-color: white;
+            color: black;
+            padding: 10px 0;
+            box-shadow: 0 0 10px gray;
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            justify-content: space-between;
+            padding: 0 20px;
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            z-index: 9999;
+        }
+
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul ul {
+            position: absolute;
+            display: none;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px gray;
+        }
+
+        nav ul ul a {
+            display: block;
+            line-height: 30px;
+            color: orangered;
+            text-decoration: none;
+            /* font-variant: small-caps; */
+            font-size: larger;
+            padding: 0 10px;
+            text-decoration: none;
+        }
+
+        nav>ul>li:hover>ul {
+            display: block;
+
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        nav p:hover {
+            background-color: rgb(200, 200, 200);
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+        .dangnhap{
+        display: flex;
+       }
+       
+       .dangnhap a{
+            margin-left: 60px;
+            text-decoration: none;
+            list-style:none;
+       }
+       .dangnhap a{
+        text-decoration: none;
+       }
+       nav p {
+            margin: 0 15px;
+        }
+
+        nav p {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+        }
+        nav ul li a:hover {
+            background-color: rgb(200, 200, 200);
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0&appId=1398708260717407" nonce="OGHNaVfb"></script>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="dangnhap">
+                <a href="index.HTML"><img src="img/Lo-G0.jpg" style="width: 80px; height: 40px;"></a>
+                <a href="lab9.HTML">
+                    <p>Dang Nhap</p>
+                </a><a href=""><img src="img\OIP.jpg" style="width: 50px;" height="50px" alt=""></a>
+                <a href="Lab9.1.HTML">
+                    <p>Dang Ky</p><a href=""><img src="img\pngtree-exit-icon-vectors-png-image_1737870.jpg"
+                            style="width: 50px;" height="50px" alt=""></a>
+                </a>
+            </div>
+            <ul>
+                <li><a href="">Office</a>
+                    <ul>
+                        <li><a href="trang3.HTML" style="text-decoration: none;">365 Office</a></li>
+                        <li><a href="" style="text-decoration: none;">Student Office</a></li>
+                        <li><a href="" style="text-decoration: none;">Family Office</a></li>
+                    </ul></li>
+                <li><a href="">Windows</a>
+                    <ul>
+                        <li><a href="" style="text-decoration: none;">Windows 7</a></li>
+                        <li><a href="" style="text-decoration: none;">Windows 8</a></li>
+                        <li><a href="" style="text-decoration: none;">Windows 10</a></li>
+                        <li><a href="" style="text-decoration: none;">Windows 11</a></li>
+                        <li><a href="" style="text-decoration: none;">Windows</a></li>
+                    </ul></li>
+                <li><a href="">Surface</a>
+                    <ul>
+                        <li><a href="" style="text-decoration: none;">Sunface 100</a></li>
+                        <li><a href="" style="text-decoration: none;">Sunface 200</a></li>
+                    </ul></li>
+                <li><a href="">Xbox</a>
+                    <ul>
+                        <li><a href="" style="text-decoration: none;">Tay cầm</a></li>
+                        <li><a href="" style="text-decoration: none;">PS4</a></li>
+                        <li><a href="" style="text-decoration: none;">PS5</a></li>
+                    </ul></li>
+                <li><a href="">Hỗ trợ</a>
+                    <ul>
+                        <li><a href="" style="text-decoration: none;">Lien He</a></li>
+                        <li><a href="" style="text-decoration: none;">Gioi Thieu</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Tối đa hóa tiềm năng của bạn với Microsoft 365 Personal</h1>
+                <p>Nhận bảo mật kỹ thuật số, 1 TB dung lượng lưu trữ đám mây và các ứng dụng sáng tạo - tất cả trong cùng một gói.</p>
+            </div>
+            <div class="hero-image">
+                <img src="img\Copilot-for-M365-Hero.avif" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Section -->
+    <section class="product-details">
+        <div class="container">
+            <div class="product-info">
+                <h2>Microsoft 365 Personal</h2>
+                <p>Microsoft Corporation</p>
+                <ul>
+                    <li>Dành cho PC, Mac, iPhone, iPad, cùng thiết bị Android</li>
+                    <li>1 TB dung lượng lưu trữ trên đám mây</li>
+                    <li>Dành cho một người dùng</li>
+                </ul>
+                <p>Microsoft 365 Personal bao gồm 1 TB dung lượng lưu trữ đám mây, các tính năng bảo mật nâng cao và các ứng dụng cải tiến, tất cả trong cùng một gói.</p>
+                <ul>
+                    <li>Cho một người dùng</li>
+                    <li>Sử dụng đồng thời trên tối đa 5 thiết bị</li>
+                    <li>Làm việc trên PC, Mac, iPhone, iPad, cùng thiết bị Android</li>
+                    <li>1 TB (1.000 GB) dung lượng lưu trữ đám mây cho mỗi người dùng</li>
+                    <li>Word, Excel, PowerPoint và OneNote với các tính năng cao cấp</li>
+                    <li>Bảo mật nâng cao của Microsoft Defender cho các thiết bị của bạn</li>
+                    <li>Email bảo mật không có quảng cáo của Outlook</li>
+                    <li>Trình soạn thảo Microsoft hỗ trợ kiểm tra chính tả và ngữ pháp nâng cao</li>
+                    <li>Thư viện mở rộng với ảnh, biểu tượng và nội dung trực quan khác</li>
+                </ul>
+            </div>
+            <div class="product-price">
+                <h3>1.499.000,00 đ/năm</h3>
+                <button class="buy-button">Mua và tải xuống</button>
+                <p>Hoặc</p>
+                <button class="buy-button">Mua ngay 150.000,00 đ/tháng</button>
+                <p>Cần thêm người dùng? Đăng ký <a href="#">Microsoft 365 Family</a> cho một đến sáu người, với 1 TB dung lượng lưu trữ đám mây cho mỗi người.</p>
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" style="margin-top: 30px;" data-width="700px" data-layout="" data-action="" data-size="" data-share="true"></div>
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" style="margin-top: 30px;" data-width="100%" data-numposts="3"></div>            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Bạn có câu hỏi? Hãy trao đổi với một chuyên gia</p>
+        </div>
+    </footer>
+</body>
+</html>

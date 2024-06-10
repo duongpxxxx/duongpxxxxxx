@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .lab9 {
+            background-color: rgb(241, 243, 244);
+            padding: 30px;
+            width: 350px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 5px gray;
+            margin-left: 700px;
+            margin-top: 180px;
+
+        }
+        .tendangnhap{
+            width: 100%;
+            border-radius: 20px;
+            /* box-shadow: 10px 10px 5px gray; */
+            height: 30px;
+            background-color: rgb(200, 242, 207);
+            border: 1px solid rgb(141, 141, 211);
+        }
+        button{
+            background-color: rgb(209, 236, 227);
+            border-radius: 50px;
+            height: 30px;
+            margin-right: 30px;
+            
+        }
+        button a{
+            text-decoration: none;
+        }
+        button:hover{
+            background-color: rgb(87, 197, 160) ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lab9">
+        <form action="..." method="" enctype="">
+            <div class="Ten" style="font-weight: bold;">
+                <table>Ho Va Ten:</table>
+                <input type="text" placeholder="Nhap Ho Va Ten" name="id" class="tendangnhap">
+            </div><br>
+            <fieldset class = "gioitinh" style="font-weight: bold;">
+                <legend >Gioi Tinh:</legend> <input type="radio" name="GioiTinh">Nam<input type="radio" name="GioiTinh"
+                    >Nu
+            </fieldset>
+            <!-- <input type="checkbox"> -->
+            <br>
+            <div class="hinhanh">
+            <table>Hinh Anh:</table>
+            <input type="file" name="file">
+            </div>
+            <br>
+            <table>Quoc Tich:</table>
+            <select name="Quocting" id="qt">
+                <option>Việt Nam</option>
+                <option>Lào</option>
+                <option>Thái Lan</option>
+                <option>Trung Quốc</option>
+            </select>
+            <br>
+            <br>
+            <table>So Thich:</table>
+            <table><input type="checkbox">The Thao <input type="checkbox">Du Lich <input type="checkbox">Am Nhac <input
+                    type="checkbox">Am Thuc</table>
+                    <br>
+            <table>Ghi Chu:</table>
+            <textarea name="Ghichu" id="gc" rows="5" cols="45"></textarea>
+            <hr>
+            <button>Dang Ky</button> <button>Nhap Lai</button><button><a href="lab9.HTML">Dang Nhap</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
